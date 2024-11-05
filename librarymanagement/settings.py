@@ -127,9 +127,9 @@ STATIC_DIR,
 LOGIN_REDIRECT_URL='/afterlogin'
 
 #for email
-EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_BACKEND ='django.core.mail.backends.sindhu.EmailBackend'
+EMAIL_HOST = 'sindhu.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'sumitproject1503@gmail.com'
+EMAIL_HOST_USER = 'sindhu@gmail.com'
 EMAIL_HOST_PASSWORD = 'sumityoyo'
